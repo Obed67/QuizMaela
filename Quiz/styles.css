@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .question {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .answers label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+  }
+  .result {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+   

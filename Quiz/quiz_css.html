@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz sur CSS</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2 class="text-center mb-4">Quiz sur CSS</h2>
+  <div id="quiz"></div> <!-- Là où les questions et réponses seront générées -->
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <button id="submit" class="btn btn-primary">Soumettre</button> <!-- Bouton pour soumettre les réponses -->
+    </div>
+    <div class="col-md-6 text-right">
+        <button id="prev" class="btn btn-primary"><a href="index.html" class="text-white" style="text-decoration: none;">Retour</a></button> <!-- Bouton Retour à droite -->
+    </div>
+  </div>
+  <div id="results" class="text-center result mt-4"></div> <!-- Affichage des résultats -->
+  <button id="next" class="btn btn-primary mt-4" style="display:none;">Page Suivante</button> <!-- Bouton pour la page suivante -->
+
+</div>
+
+<script src="quiz_css.js"></script> <!-- Script contenant les données du quiz CSS et les fonctions -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> <!-- Script Bootstrap -->
+
+</body>
+</html>
